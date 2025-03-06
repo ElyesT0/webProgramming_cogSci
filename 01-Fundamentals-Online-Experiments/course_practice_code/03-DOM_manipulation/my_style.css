@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #131c28;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+
+/* 
+********************************
+---------- Containers ---------- 
+********************************
+*/
+.canvas {
+  overflow: hidden;
+  position: absolute;
+}
+
+.container-word {
+  font-family: "Playwrite IT Moderna";
+  text-align: center;
+  line-height: 100px;
+
+  height: 100px;
+  width: 300px;
+
+  background: white;
+
+  position: absolute;
+}
+/* This is a comment and wont be executed. */
+
+.container-btns {
+  justify-content: center;
+  height: 55px;
+  width: 100%;
+  bottom: 30px;
+  position: absolute;
+}
+
+/* 
+********************************
+------- Timeline elements ------
+********************************
+*/
+
+.btn-start {
+  border-radius: 10%;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 30px;
+  width: 200px;
+  height: 100px;
+
+  line-height: 100px;
+  text-align: center;
+  position: absolute;
+}
+
+.btn-start:active {
+  background-color: black;
+  color: white;
+}
+
+.fixation {
+  position: relative;
+}
+
+.btn {
+  height: 50px;
+  width: 50px;
+  border-color: white;
+  border-radius: 50%;
+  transform: translate(
+    12.5px
+  ); /* unnecessary but I wanted the box of circles to be well alligned with the box of word */
+  top: 0;
+  position: absolute;
+}
+
+.btn-red {
+  background-color: #c1121f;
+}
+
+.btn-green {
+  background-color: #a1c181;
+}
+
+.btn-blue {
+  background-color: #118ab2;
+}
+
+.btn-yellow {
+  background-color: #ffd60a;
+}

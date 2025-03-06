@@ -1,0 +1,22 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #131c28;
+  color: white;
+}
+
+.my_class {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+}
+
+#my_el_ID {
+  background-color: blue;
+}
+
+/* This is a comment and wont be executed. */

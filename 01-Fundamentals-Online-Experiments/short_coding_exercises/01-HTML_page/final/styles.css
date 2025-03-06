@@ -1,0 +1,11 @@
+/* Simple styling */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: lightgray;
+}
+
+button {
+  font-size: 16px;
+  padding: 10px;
+}

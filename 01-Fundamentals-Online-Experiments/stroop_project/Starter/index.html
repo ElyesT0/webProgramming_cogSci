@@ -1,0 +1,70 @@
+<!-- 
+      === Step 1: Understanding the Structure ===
+      This experiment is designed to test the Stroop effect.
+      Find the following elements on the page :
+      - A "Start" button to begin the experiment.
+      - A canvas area where the word and buttons will appear.
+      - A fixation cross ("+") shown before each trial.
+      - Four colored buttons for responses.
+    -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <!-- 
+        The <head> part of an HTML file defines some key parameters about the display of the page. 
+        This particular file:
+        - Sets the character encoding to UTF-8 for proper text display.
+        - Ensures mobile responsiveness with the viewport meta tag.
+        - Loads the Axios library for sending experiment data.
+        - Links to an external CSS file for styling.
+          -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link href="styles/style-main.css" rel="stylesheet" />
+    <title>Stroop Effect</title>
+  </head>
+
+  <body>
+    <!-- 
+            Here is a list of elements that will be used during the experiment.
+            -->
+    <!-- Start button to initialize the experiment -->
+    <div class="btn-start">Start</div>
+
+    <!-- Canvas area where the experiment will run -->
+    <div class="canvas">
+      <!-- Container for displaying the word used in the Stroop effect test -->
+      <div class="container-word"></div>
+
+      <!-- Container for the response buttons -->
+      <div class="container-btns">
+        <!-- Each button corresponds to a specific color response -->
+        <div class="btn btn-red"></div>
+        <div class="btn btn-green"></div>
+        <div class="btn btn-blue"></div>
+        <div class="btn btn-yellow"></div>
+      </div>
+
+      <!-- Fixation cross that appears before each trial -->
+      <div class="fixation">+</div>
+
+      <!-- Container for any additional prompts during the experiment -->
+      <div class="container-prompt"></div>
+    </div>
+
+    <!-- 
+            === Javascript integration ===
+           Usually we write the javascript at the bottom of the HTML Page, in the <body> element. 
+            Keep in mind that the order of the lines of code is critical for sources in <script> tags, as they will be 
+              executed in the specified order.
+            So previous scripts should be independent of subsequent scripts.
+            -->
+
+    <!-- Main script to handle experiment logic -->
+    <script src="scripts/script-main.js"></script>
+    <!-- Script to handle data posting to a server -->
+    <script src="scripts/send_post.js"></script>
+  </body>
+</html>
