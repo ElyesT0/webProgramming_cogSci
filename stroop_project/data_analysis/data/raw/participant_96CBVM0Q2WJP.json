@@ -1,0 +1,92 @@
+{
+  "participant_ID": [
+    "96CBVM0Q2WJP",
+    "96CBVM0Q2WJP",
+    "96CBVM0Q2WJP",
+    "96CBVM0Q2WJP",
+    "96CBVM0Q2WJP",
+    "96CBVM0Q2WJP",
+    "96CBVM0Q2WJP",
+    "96CBVM0Q2WJP"
+  ],
+  "participant_starting_time": [
+    1741276940168,
+    1741276940168,
+    1741276940168,
+    1741276940168,
+    1741276940168,
+    1741276940168,
+    1741276940168,
+    1741276940168
+  ],
+  "experiment_break_duration": [
+    400,
+    400,
+    400,
+    400,
+    400,
+    400,
+    400,
+    400
+  ],
+  "experiment_font_size": [
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50
+  ],
+  "stimuli_shown_word": [
+    "green",
+    "yellow",
+    "red",
+    "yellow",
+    "blue",
+    "red",
+    "blue",
+    "green"
+  ],
+  "stimuli_shown_color": [
+    "a1c181",
+    "c1121f",
+    "a1c181",
+    "a1c181",
+    "ffd60a",
+    "c1121f",
+    "118ab2",
+    "a1c181"
+  ],
+  "response_color": [
+    "green",
+    "red",
+    "green",
+    "green",
+    "yellow",
+    "red",
+    "blue",
+    "green"
+  ],
+  "response_RT": [
+    4947,
+    2068,
+    1298,
+    1550,
+    1527,
+    1185,
+    1062,
+    834
+  ],
+  "response_timestamp": [
+    1741276958276,
+    1741276960744,
+    1741276962442,
+    1741276964392,
+    1741276966319,
+    1741276967904,
+    1741276969366,
+    1741276970600
+  ]
+}

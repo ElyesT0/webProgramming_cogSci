@@ -1,0 +1,92 @@
+{
+  "participant_ID": [
+    "9USAAYE8I30V",
+    "9USAAYE8I30V",
+    "9USAAYE8I30V",
+    "9USAAYE8I30V",
+    "9USAAYE8I30V",
+    "9USAAYE8I30V",
+    "9USAAYE8I30V",
+    "9USAAYE8I30V"
+  ],
+  "participant_starting_time": [
+    1741276939215,
+    1741276939215,
+    1741276939215,
+    1741276939215,
+    1741276939215,
+    1741276939215,
+    1741276939215,
+    1741276939215
+  ],
+  "experiment_break_duration": [
+    400,
+    400,
+    400,
+    400,
+    400,
+    400,
+    400,
+    400
+  ],
+  "experiment_font_size": [
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50
+  ],
+  "stimuli_shown_word": [
+    "green",
+    "green",
+    "blue",
+    "red",
+    "blue",
+    "red",
+    "yellow",
+    "yellow"
+  ],
+  "stimuli_shown_color": [
+    "118ab2",
+    "a1c181",
+    "c1121f",
+    "c1121f",
+    "ffd60a",
+    "a1c181",
+    "ffd60a",
+    "ffd60a"
+  ],
+  "response_color": [
+    "green",
+    "green",
+    "blue",
+    "red",
+    "blue",
+    "red",
+    "yellow",
+    "yellow"
+  ],
+  "response_RT": [
+    26644,
+    3265,
+    4027,
+    2233,
+    1866,
+    1650,
+    1702,
+    1212
+  ],
+  "response_timestamp": [
+    1741276967350,
+    1741276971016,
+    1741276975443,
+    1741276978076,
+    1741276980342,
+    1741276982392,
+    1741276984494,
+    1741276986106
+  ]
+}
